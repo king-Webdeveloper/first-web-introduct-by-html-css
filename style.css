@@ -1,0 +1,440 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+    height: 100vh;
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 800px;
+    background: rgb(2,28,55);
+    background: linear-gradient(180deg, rgba(2,28,55,1) 0%, rgba(8,43,80,1) 22%, rgba(6,70,112,1) 43%, rgba(4,90,137,1) 53%, rgba(0,140,198,1) 66%, rgba(142,236,238,1) 83%, rgba(193,237,255,1) 100%);
+}
+
+.main h1{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 8rem;
+    text-transform: uppercase;
+    font-family: "Playwrite IS", cursive;
+    padding-top: 180px;
+}
+
+.main h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    margin: 20px 0;
+    font-style: normal;
+    
+}
+
+.main img{
+    position: absolute;
+    top: 190px;
+    bottom: 1px;
+    right: 1200px;
+    overflow: hidden;
+    width: 800px;
+    height: 800px;
+}
+
+
+.aboutme{
+    background-color: #BFEAF5;
+    height: 600px;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.aboutme img{
+    bottom: 20px;
+    position: relative;
+    width: 440px;
+    height: 420px;
+    float: right;
+    margin: 50px;
+    margin-right: 200px; 
+    border:15px solid #1679AB;
+    border-radius: 10px;
+}
+
+.aboutme .me {
+    display: inline-block;
+    width: 800px;
+    font-size: 6rem;
+    text-align: center;
+    margin-left: 200px;
+    margin-bottom: 0px;
+    font-family: "Kanit", sans-serif;
+}
+
+.aboutme .inf {
+    font-family: "Kanit", sans-serif;
+    font-size: 2rem;
+    display: inline-block;
+    width: 900px;
+    height: 200px;
+    margin-left: 200px;
+    font-weight: 400;
+}
+
+.myskill{
+    width: 100%;
+    height: 1000px;
+    background-color: #526D82;
+}
+
+.myskill h1{
+    display: flex;
+    font-family: "Kanit", sans-serif;
+    font-size: 7rem;
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: center;
+    color: white;
+}
+
+.myskill img{
+    height: 330px;
+    width: 500px;
+}
+
+.myskill .container{
+    display: grid;
+    width: 1600px;
+    height: 800px;
+    margin: 0px 160px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.code{
+    grid-column: span 2;
+}
+
+.code img{
+    float: left;
+    margin-right: 40px;
+    border: 10px solid white;
+}
+
+
+.code h2{
+    font-size: 4rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: "Kanit", sans-serif;
+    color: white;
+}
+
+.code p{
+    font-size: 2rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.draw img{
+    float: left;
+    margin-right: 40px;
+    border: 10px solid white;
+}
+
+.draw{
+    grid-column: span 2;
+}
+
+
+.draw h2{
+    font-size: 4rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: "Kanit", sans-serif;
+    color: white;
+}
+
+.draw p{
+    font-size: 2rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.Project{
+    width: 100%;
+    background-color: #9CB4CC;
+    height: 1200px;
+}
+
+.Project h1{
+    display: flex;
+    justify-content: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 8rem;
+    padding: 20px 0px;
+}
+
+.container-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 0.5fr 0.5fr;
+    background-color: #526D82;
+    width:1800px;
+    height: 700px;
+    margin: 20px 50px;
+}
+
+
+.container-2 img{
+    border: 10px dashed white;
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+
+.art h2{
+    display: flex;
+    justify-content: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 60px;
+    height: 30%;
+    width: 60%;
+    align-items: end;
+}
+
+
+.Project button{
+    background-color: aliceblue;
+}
+
+
+.art .but{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+.art .watch{
+    position: relative;
+    bottom:10px;
+    padding: 15px 80px;
+    font-family: "Kanit", sans-serif;
+    font-size: 2rem;
+    margin-top: 0px;
+    border: 5px solid ;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.happy h2{
+    display: flex;
+    justify-content: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 60px;
+    height: 30%;
+    width: 62%;
+    align-items: end;
+}
+
+.happy .but{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+.happy .watch{
+    position: relative;
+    bottom:10px;
+    padding: 15px 80px;
+    font-family: "Kanit", sans-serif;
+    font-size: 2rem;
+    margin-top: 0px;
+    border: 5px solid ;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+
+.flex h2{
+    display: flex;
+    justify-content: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 60px;
+    height: 30%;
+    width: 60%;
+    align-items: end;
+}
+
+.flex .but{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+.flex .watch{
+    position: relative;
+    bottom:10px;
+    padding: 15px 80px;
+    font-family: "Kanit", sans-serif;
+    font-size: 2rem;
+    margin-top: 0px;
+    border: 5px solid ;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.tin h2{
+    display: flex;
+    justify-content: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 60px;
+    height: 30%;
+    width: 60%;
+    align-items: end;
+}
+
+.tin .but{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+.tin .watch{
+    position: relative;
+    bottom:10px;
+    padding: 15px 80px;
+    font-family: "Kanit", sans-serif;
+    font-size: 2rem;
+    margin-top: 0px;
+    border: 5px solid ;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.contact{
+    width: 100%;
+    height: 800px;
+    background-color: #BFEAF5;
+}
+
+.Get{
+    font-size: 8rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    color: #006989;
+}
+
+
+.contact p{
+    font-size: 1.75rem;
+    font-weight: 800;
+    font-family: "Kanit", sans-serif;
+    display: inline-block;
+    text-align: center;
+    width: 1250px;
+}
+
+.oop{
+    display: flex;
+    justify-content: space-evenly;
+    color: #006989;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+.oop img{
+    height: 300px;
+    width: 500px;
+}
+
+
+button{
+    padding: 20px 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 0px;
+    background: transparent;
+    position: relative;
+    margin: 20px;
+    margin-top: 40px;
+    transition: all 0.25s ease;   
+}
+
+.btn-1{
+    background: #006989;
+    font-weight: bold;
+    color: white;
+    border-radius: 30px;
+    transition: all 0.25s ease;
+    position: relative; 
+}
+
+.btn-1:hover {
+    transform: translate(-12px, -12px);
+    }
+    .btn-1:hover::before {
+    transform: translate(12px, 12px);
+    }
+    .btn-1:hover::after {
+    transform: translate(6px, 6px);
+    }
+    .btn-1::after, .btn-1::before {
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    border-radius: inherit;
+    background: #006989;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: all 0.25s ease;
+    }
+
+    footer{
+        background-color: #526D82;
+        width: 100%;
+        display: flex;
+        color: aliceblue;
+        justify-content: center;
+        font-size: 2rem;
+        height: 50px;
+        align-items: center;
+        font-weight: bold;
+    }
+
+
+    @media only screen and (max-width: 1400px) {
+        body{
+            height: 100vh;
+            width: 100%;
+        }
+
+
+    }
